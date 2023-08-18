@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+   
+        width: 100%;
+        height: 660px;
+        background-image: url(../img/events-heavenly-header.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        color: white;
+        position: relative;
+    
+}
+.home-text{
+    margin-top: 240px;
+}
+.home-text h1{
+    font-size: 3.5rem;
+}
+
+.home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+#home span.openNav{
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+
+}
+#leftMenu{
+    height: 100%;
+    width: 0px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #000;
+    z-index: 999;
+    display: none;
+    transition: background-color 400ms;
+}
+
+#leftMenu a:hover {
+    color: #d62e33;
+}
+
+
+.sideNav a.first-sec{
+margin-top: 50px;
+
+}
+.sideNav a {
+    padding: 50px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    color: white;
+}
+
+.sideNav a.btn-close{
+    position: absolute;
+    right: 20px;
+    padding-bottom: 50px;
+    font-size:30px;
+}
+
+
+/*/*********accordian********  */
+.accordian{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+
+.accordian .card .accordian-header h3{
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    background-color: #e68285;
+
+}
+.accordian .card .accordian-body p{
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    color: #000;
+    background-color: #cccccc;
+    font-size: 15px;
+}
+.accordian .card .accordian-body{
+    display: none;
+}
+
+.accordian .card .accordian-body.first{
+    display: block;
+} 
+.padding{
+    margin: 50px 0;
+}
+
+#countDown{
+    width: 100%;
+        height: 300px;
+        background-image: url(../img/events-heavenly-header.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        color: white;
+        position: relative;
+}
+
+#countDown .countDown-overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+/*//////////contact///////////*/
+
+#contact .container h1{
+    text-align: left;
+    font-size: 3.2rem;
+    /* margin-top: 100px; */
+}
+
+.margin{
+    margin-top: 150px;
+}
+.text-site p i{
+    padding-right:20px ;
+
+}
+.text-site p:nth-child(4){
+    color: #d682bd;
+}
+
+.text-site p:nth-child(2){
+    padding-bottom: 50px;
+}
+.social-link {
+    padding-top: 20px;
+}
+.social-link i{
+    border: 1px solid #797777;
+    padding: 15px;
+    color: #797777;
+    transition: background-color 400ms;
+}
+.social-link i:hover{
+    background-color: #d62e33;
+    color: #fff;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: #d62e33 !important;
+}
+
+.countDown-overlay .col-3 p{
+    font-size: 30px;
+
+
+}
+
+#contact  p.counterr{
+    font-size: 18px;
+
+}
+
