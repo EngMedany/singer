@@ -4,6 +4,8 @@ $('.openNav').click(function(){
     $(".openNav").css("transition","padding-left,600ms")
     $("#leftMenu").animate({width:"250px"},600)
     $("#leftMenu").css("display","block")
+   
+    
     
     
 })
@@ -11,6 +13,9 @@ $('.openNav').click(function(){
 $(".btn-close").click(function(){
     $("#leftMenu").css("display","none")
     $(".openNav").css("padding-left","20px")
+    $(".openNav").css("transition","padding-left,600ms")
+    
+
 
 
 })
